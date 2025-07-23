@@ -1,0 +1,1 @@
+To collect most of the Ukrainian texts related to biomedicine [SketchEngine](https://www.sketchengine.eu/) tool was used
