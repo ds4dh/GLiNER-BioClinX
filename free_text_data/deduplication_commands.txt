@@ -1,0 +1,10 @@
+python 2a_deduplicate.py --input_csv ./data/cleaned/uk_chunked_cleaned.csv --output_csv ./data/deduplicated/uk_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/zh_chunked_cleaned.csv --output_csv ./data/deduplicated/zh_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/de_chunked_cleaned.csv --output_csv ./data/deduplicated/de_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/ja_chunked_cleaned.csv --output_csv ./data/deduplicated/ja_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/ru_chunked_cleaned.csv --output_csv ./data/deduplicated/ru_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/en_chunked_cleaned.csv --output_csv ./data/deduplicated/en_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/it_chunked_cleaned.csv --output_csv ./data/deduplicated/it_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/es_chunked_cleaned.csv --output_csv ./data/deduplicated/es_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/nl_chunked_cleaned.csv --output_csv ./data/deduplicated/nl_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/fr_chunked_cleaned.csv --output_csv ./data/deduplicated/fr_chunked_cleaned_deduplicated.csv

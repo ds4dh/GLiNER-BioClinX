@@ -1,0 +1,10 @@
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/wiki_uk_chunked.csv --output_csv ./data/cleaned/uk_chunked_cleaned.csv --language uk --lang_csv_label uk
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmedc_chunked.csv --output_csv ./data/cleaned/zh_chunked_cleaned.csv --language zh-cn --lang_csv_label Chinese
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmedc_chunked.csv --output_csv ./data/cleaned/de_chunked_cleaned.csv --language de --lang_csv_label German
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmedc_chunked.csv --output_csv ./data/cleaned/ja_chunked_cleaned.csv --language ja --lang_csv_label Japanese
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmedc_chunked.csv --output_csv ./data/cleaned/ru_chunked_cleaned.csv --language ru --lang_csv_label Russian
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmc_chunked.csv --output_csv ./data/cleaned/en_chunked_cleaned.csv --language en --lang_csv_label en
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmc_chunked.csv --output_csv ./data/cleaned/it_chunked_cleaned.csv --language it --lang_csv_label it
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmc_chunked.csv --output_csv ./data/cleaned/es_chunked_cleaned.csv --language es --lang_csv_label es
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/biolord_nl_chunked.csv --output_csv ./data/cleaned/nl_chunked_cleaned.csv --language nl --lang_csv_label nl
+python 1a_cleaning_main.py --input_csv ./data/preprocessed/mmc_chunked.csv --output_csv ./data/cleaned/fr_chunked_cleaned.csv --language fr --lang_csv_label fr
