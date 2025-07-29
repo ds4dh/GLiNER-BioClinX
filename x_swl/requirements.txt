@@ -1,0 +1,12 @@
+aiohttp==3.12.12
+aiohttp==3.12.11
+async_timeout==5.0.1
+beautifulsoup4==4.13.4
+gliner==0.2.21
+lxml==6.0.0
+pandas==2.3.1
+Requests==2.32.4
+stanza==1.10.1
+torch==2.7.0
+tqdm==4.67.1
+transformers==4.43.4

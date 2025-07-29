@@ -1,0 +1,55 @@
+# custom_config.yaml
+
+# --- Model Configuration ---
+model_name: "google/mt5-large"         # Base Hugging Face model to train from
+labels_encoder: null                   # Set to a model name for bi-encoder, or null
+name: "span level gliner"
+max_width: 12                          # Maximum span width to consider
+hidden_size: 1024                       # Hidden size for the model layers
+dropout: 0.3
+fine_tune: true
+subtoken_pooling: "first"
+fuse_layers: false
+post_fusion_schema: null
+span_mode: "markerV0"
+ent_token: "<<ENT>>"                   # Special token for entities
+sep_token: "<<SEP>>"                   # Special token for separation
+
+# --- Training Parameters ---
+num_steps: 10000
+train_batch_size: 4
+eval_every: 1000                       # Evaluation frequency in steps
+warmup_ratio: 0.05
+scheduler_type: "cosine"
+early_stopping_patience: 3             # Number of evaluations to wait for improvement before stopping. Set to 0 to disable.
+
+# --- Loss Function Configuration ---
+loss_alpha: 0.75
+loss_gamma: 0
+label_smoothing: 0
+loss_reduction: "sum"
+
+# --- Learning Rate and Weight Decay ---
+lr_encoder: 1e-5
+lr_others: 3e-5
+weight_decay_encoder: 0.1
+weight_decay_other: 0.01
+max_grad_norm: 10.0
+
+# --- Data Paths ---
+# The script uses 'train_data' and 'val_data_dir' to match your provided config.
+train_data: "./train_uniform.json"      # Path to the training data
+val_data_dir: "./val_uniform.json" # Path to the validation data
+
+# --- Model Saving ---
+prev_path: null                        # Path to a pre-trained GLiNER model to fine-tune. `null` for training from scratch.
+save_total_limit: 10                   # Keeps only the best checkpoint based on validation loss.
+
+# --- Advanced Data Settings ---
+words_splitter_type: "stanza"
+size_sup: -1
+max_types: 1
+shuffle_types: false
+random_drop: false
+max_neg_type_ratio: 0                  # Set to 0 to disable negative sampling
+max_len: 1024                          # Max sequence length for tokenizer
