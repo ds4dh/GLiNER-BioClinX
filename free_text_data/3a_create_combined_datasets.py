@@ -100,7 +100,7 @@ def create_combined_datasets(seed=42):
     sampled_12k_df = (
         shuffled_balanced_df
         .groupby('language', group_keys=False)
-        .apply(lambda grp: grp.sample(n=sample_size, random_state=seed), include_groups=False)
+        .apply(lambda grp: grp.sample(n=sample_size, random_state=seed)) # Corrected: argument removed
     )
 
     # Shuffle the combined 12k-per-language sample
