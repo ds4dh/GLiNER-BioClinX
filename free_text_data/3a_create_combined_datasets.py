@@ -79,6 +79,41 @@ def create_combined_datasets(seed=42):
     print(f"  {balanced_output_path}")
     print("-" * 30)
 
+    # --- Task 3: Create a balanced sample of 12,000 rows per language from in‑memory balanced_df ---
+    print("\n[Task 3] Creating a 12k-per-language sample from the balanced dataset...")
+
+    sample_size = 12000
+
+    # Ensure there's a 'language' column to group by
+    if 'language' not in shuffled_balanced_df.columns:
+        raise KeyError("Expected a 'language' column in the balanced DataFrame to group by language.")
+
+    # Check that each language group has at least sample_size rows
+    counts_bal = shuffled_balanced_df['language'].value_counts()
+    too_small = counts_bal[counts_bal < sample_size]
+    if not too_small.empty:
+        for lang, cnt in too_small.items():
+            print(f"Error: Language '{lang}' has only {cnt} rows in the balanced dataset, fewer than {sample_size}.")
+        raise ValueError("Cannot sample 12,000 rows per language because some groups are too small.")
+
+    # Perform the sampling directly on the in-memory balanced DataFrame
+    sampled_12k_df = (
+        shuffled_balanced_df
+        .groupby('language', group_keys=False)
+        .apply(lambda grp: grp.sample(n=sample_size, random_state=seed), include_groups=False)
+    )
+
+    # Shuffle the combined 12k-per-language sample
+    shuffled_12k = sampled_12k_df.sample(frac=1, random_state=seed).reset_index(drop=True)
+    
+    # Save the 12k-sampled balanced dataset
+    balanced_12k_output_path = os.path.join(output_directory, 'balanced_12k.csv')
+    shuffled_12k.to_csv(balanced_12k_output_path, index=False)
+
+    print(f"✔ Successfully saved the 12k balanced dataset with {len(shuffled_12k)} rows to:")
+    print(f"  {balanced_12k_output_path}")
+    print("-" * 30)
+
 
 if __name__ == "__main__":
     create_combined_datasets(seed=42)
