@@ -1,1 +1,1 @@
-# GLiNER-BioMedX
+# GLiNER-BioClinX
