@@ -1,0 +1,4 @@
+cd wikiextractor
+pip install -e .
+cd ..
+wikiextractor nlwiki-latest-pages-articles.xml.bz2 --processes 64 -o full_extract

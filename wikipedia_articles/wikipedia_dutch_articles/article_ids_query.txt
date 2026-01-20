@@ -1,0 +1,20 @@
+# Positive
+Geneeskundige behandeling
+Geneeskundig specialisme
+Farmacie
+Geneesmiddel
+Geneeskundige terminologie
+Farmacologie
+Volksgezondheid
+Ziekte
+
+# Negative
+Diergeneeskunde
+Dierengeneesmiddel
+Dierziekte
+Medicinale plant
+Plantkunde
+Hallucinogeen
+Stimulantia
+
+WITH DEPTH = 2

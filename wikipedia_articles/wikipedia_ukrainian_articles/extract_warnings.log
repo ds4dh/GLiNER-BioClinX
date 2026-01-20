@@ -1,0 +1,384 @@
+INFO: Preprocessing 'ukwiki-latest-pages-articles.xml.bz2' to collect template definitions: this may take some time.
+INFO: Preprocessed 100000 pages
+INFO: Preprocessed 200000 pages
+INFO: Preprocessed 300000 pages
+INFO: Preprocessed 400000 pages
+INFO: Preprocessed 500000 pages
+INFO: Preprocessed 600000 pages
+INFO: Preprocessed 700000 pages
+INFO: Preprocessed 800000 pages
+INFO: Preprocessed 900000 pages
+INFO: Preprocessed 1000000 pages
+INFO: Preprocessed 1100000 pages
+INFO: Preprocessed 1200000 pages
+INFO: Preprocessed 1300000 pages
+INFO: Preprocessed 1400000 pages
+INFO: Preprocessed 1500000 pages
+INFO: Preprocessed 1600000 pages
+INFO: Preprocessed 1700000 pages
+INFO: Preprocessed 1800000 pages
+INFO: Preprocessed 1900000 pages
+INFO: Preprocessed 2000000 pages
+INFO: Preprocessed 2100000 pages
+INFO: Preprocessed 2200000 pages
+INFO: Preprocessed 2300000 pages
+INFO: Preprocessed 2400000 pages
+INFO: Preprocessed 2500000 pages
+INFO: Preprocessed 2600000 pages
+INFO: Preprocessed 2700000 pages
+INFO: Preprocessed 2800000 pages
+INFO: Preprocessed 2900000 pages
+INFO: Preprocessed 3000000 pages
+INFO: Preprocessed 3100000 pages
+INFO: Loaded 178508 templates in 590.2s
+INFO: Starting page extraction from ukwiki-latest-pages-articles.xml.bz2.
+INFO: Using 120 extract processes.
+WARNING: Template errors in article 'Італія' (1086): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Київська область' (3170): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Дніпровський район (Дніпропетровська область, 1928—2020)' (4291): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article '1350-ті' (5370): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Галицький район' (6755): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Коломийський район (1940—2020)' (6760): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Калуський район (1940—2020)' (6759): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Надвірнянський район (1940—2020)' (6762): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Білоцерківський район (1923—2020)' (6769): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Тисменицький район' (6766): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Бориспільський район (1923—2020)' (6771): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Переяслав-Хмельницький район' (6785): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Обухівський район (1923—2020)' (6784): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Поліський район' (6786): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Фастівський район (1923—2020)' (6794): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Вінницький район (1923—2020)' (6797): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Жмеринський район (1923—2020)' (6800): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Козятинський район' (6802): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Іваничівський район' (6824): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Володимир-Волинський район (1940—2020)' (6823): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Павлоградський район (1923—2020)' (6855): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Криворізький район (1923—2020)' (6847): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Петропавлівський район' (6857): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Синельниківський район (1923—2020)' (6861): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Добропільський район' (6875): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Слов'янський район' (6892): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Шахтарський район' (6898): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Покровський район (Донецька область, 1923—2020)' (6884): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Уманський район (1923—2020)' (6913): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Черкаський район (1923—2020)' (6915): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Новгород-Сіверський район (1923—2020)' (6926): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Прилуцький район (1923—2020)' (6930): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Ніжинський район (1923—2020)' (6929): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Хмільницький район (1923—2020)' (6817): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Ізюмський район (1923—2020)' (6941): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Лозівський район (1923—2020)' (6955): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Куп'янський район (1923—2020)' (6953): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Первомайський район (Харківська область)' (6958): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Харківський район (1923—2020)' (6963): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чугуївський район (1923—2020)' (6964): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Білозерський район' (6974): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Голопристанський район' (6987): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Хмельницький район (1923—2020)' (7004): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Старокостянтинівський район' (7002): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Славутський район' (7000): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Кам'янець-Подільський район (1939—2020)' (6995): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Шепетівський район (1923—2020)' (7006): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Знам'янський район' (7014): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Кропивницький район (1923—2020)' (7016): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Олександрійський район (1923—2020)' (7023): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Джанкойський район (1921—2023)' (7032): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Красноперекопський район' (7036): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Сімферопольський район (1965—2023)' (7046): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Сорокинський район (Луганська область)' (7053): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Антрацитівський район' (7051): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Миколаївський район (Львівська область)' (7087): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Перевальський район' (7065): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Сокальський район' (7095): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Стрийський район (1940—2020)' (7097): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Вознесенський район (1923—2020)' (7110): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Первомайський район (Миколаївська область, 1923—2020)' (7122): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Подільський район (Одеська область, 1923—2020)' (7132): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гадяцький район' (7156): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Біляївський район' (7153): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Балтський район' (7136): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Миргородський район (1923—2020)' (7170): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Кременчуцький район (1939—2020)' (7166): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Полтавський район (1925—2020)' (7174): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Острозький район' (7194): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Конотопський район (1923—2020)' (7202): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Лебединський район' (7206): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Роменський район (1930—2020)' (7210): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Сумський район (1923—2020)' (7212): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Шосткинський район (1923—2020)' (7214): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Рівненський район (1940—2020)' (7197): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Глухівський район' (7201): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Охтирський район (1923—2020)' (7205): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Бережанський район' (7227): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Мукачівський район (1953—2020)' (7238): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Берегівський район (1953—2020)' (7241): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Хустський район (1953—2020)' (7246): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Токмацький район' (7266): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Житомирський район (1939—2020)' (7273): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Мелітопольський район (1930—2020)' (7257): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Коростенський район (1923—2020)' (7276): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Лугинський район' (7278): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Новоград-Волинський район (1923—2020)' (7283): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Малинський район' (7280): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Бердичівський район (1925—2020)' (7286): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Київський метрополітен' (7435): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Південно-Африканська Республіка' (10171): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Житомир' (10832): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Дніпровський академічний український музично-драматичний театр імені Тараса Шевченка' (18347): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Теребовля' (21834): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Бранденбург' (24617): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Нижня Саксонія' (24632): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Ген' (24998): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Варяги' (27420): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Костянтинівський район' (31236): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Лаціо' (33359): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Дубенський район (1939—2020)' (35114): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гідразин' (41000): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чернігівський район (Чернігівська область, 1923—2020)' (47423): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Васильківський район (Київська область)' (47628): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Бахмутський район (1923—2020)' (48464): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Обмін речовин' (50032): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Михайлівка (Василівський район)' (58660): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Краснодарський край' (61711): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гояс' (70687): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+WARNING: Template errors in article 'Набір (значення)' (108342): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Мінська область' (190058): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Деформація' (193769): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Сахалінська область' (200361): title(1) recursion(0, 0, 0)
+INFO: Extracted 100000 articles (1315.3 art/s)
+WARNING: Template errors in article 'Нижня Австрія' (242474): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Ясенки' (249780): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Стеблівка (Хустський район)' (250126): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Цикл трикарбонових кислот' (255003): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гексокіназа' (255379): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Комишівка (селище)' (265998): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Тріозофосфатізомераза' (266184): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Римо-католицька церква' (273073): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Середньочеський край' (286490): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Вільне місто Данциг' (288063): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Фламандський Брабант' (299568): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Санкт-Галлен (кантон)' (365445): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Ілфов' (382498): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Прокл (архієпископ Константинопольський)' (384714): title(1) recursion(0, 0, 0)
+INFO: Extracted 200000 articles (1328.0 art/s)
+WARNING: Template errors in article 'Джуба' (418914): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гліколіз' (431711): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Пейзаж з місячним сяйвом (Гверчіно)' (527394): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Мінський район' (672486): title(1) recursion(0, 0, 0)
+INFO: Extracted 300000 articles (1239.8 art/s)
+WARNING: Template errors in article 'Музей Венеції 18 століття' (722182): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Соціалістичний інтернаціонал' (726174): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Монастир Енсьо (Нара)' (772043): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Стамбул (провінція)' (792200): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Джордж Бенсон' (802859): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Південний Судан' (887890): title(2) recursion(0, 0, 0)
+INFO: Extracted 400000 articles (1085.4 art/s)
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+WARNING: Template errors in article 'Перша громадянська війна в Судані' (1037087): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Адміністративний поділ Південного Судану' (1038883): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Прапор Південного Судану' (1039396): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Герб Південного Судану' (1039465): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гімн Південного Судану' (1039631): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Культура Південного Судану' (1039893): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Освіта в Південному Судані' (1039902): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Релігія в Південному Судані' (1039939): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Мови Південного Судану' (1039919): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Південносуданський фунт' (1039925): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Спорт у Південному Судані' (1039951): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Річки Південного Судану' (1039984): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Міста Південного Судану' (1040100): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Католицька церква в Південному Судані' (1040116): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Економіка Південного Судану' (1040149): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Транспорт Південного Судану' (1039965): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Ебоні ТБ' (1040240): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Географія Південного Судану' (1040007): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Список національних парків Південного Судану' (1046394): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Залізничний транспорт Південного Судану' (1048000): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article '.ss' (1059202): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Пешт (медьє)' (1089298): title(1) recursion(0, 0, 0)
+INFO: Extracted 500000 articles (1290.6 art/s)
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+WARNING: Template errors in article 'Усмань' (1241111): title(3) recursion(0, 0, 0)
+INFO: Extracted 600000 articles (2383.3 art/s)
+WARNING: Template errors in article 'Піровиноградна кислота' (1303651): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Тварини Біблії' (1303697): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Коефіцієнт Жаккара' (1368410): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Аксіома нескінченності' (1377719): title(2) recursion(0, 0, 0)
+INFO: Extracted 700000 articles (1172.4 art/s)
+WARNING: Template errors in article 'Посол доброї волі ЮНІСЕФ' (1520842): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Друга битва за Ель-Кусейр' (1552099): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чарльз Штернберг' (1573486): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Aveeno' (1629197): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Тер-Арутюнянц Михайло Карлович' (1641009): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'STS-104' (1644394): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Нові Черемушки (станція метро)' (1649015): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Kirarin Revolution' (1680210): title(1) recursion(0, 0, 0)
+INFO: Extracted 800000 articles (1146.8 art/s)
+WARNING: Template errors in article 'Коломия (станція)' (1842762): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Громадянська війна в Південному Судані' (1846991): title(2) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+INFO: Extracted 900000 articles (1320.7 art/s)
+WARNING: Template errors in article 'Молодіжний чемпіонат світу з хокею із шайбою 2009' (1971418): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+WARNING: Template errors in article 'Конфлікт у Південному Кордофані (з 2011)' (2198669): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Конституція Південного Судану' (2199274): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Уряд Південного Судану' (2199290): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Президент Південного Судану' (2199309): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Ріек Мачара' (2199754): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Історія Південного Судану' (2199794): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Парламент Південного Судану' (2200083): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Зовнішня політика Південного Судану' (2201407): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Збройні сили Південного Судану' (2204527): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Південний Судан на Олімпійських іграх' (2232867): title(2) recursion(0, 0, 0)
+INFO: Extracted 1000000 articles (1207.3 art/s)
+WARNING: Template errors in article 'Ібрагімов Магомед Ідрісович' (2248523): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'float' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Населення Південного Судану' (2298937): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Країна ФМ' (2328759): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Вологда (аеропорт)' (2416162): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чоловіча збірна України з футболу серед людей з вадами слуху' (2482472): title(1) recursion(0, 0, 0)
+INFO: Extracted 1100000 articles (1166.8 art/s)
+WARNING: Template errors in article 'Жоффруа II (герцог Бретані)' (2494829): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Теорема перерахування Поя' (2600937): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Карім Леклу' (2602198): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Маню Паєт' (2602947): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Давид Марсе' (2607229): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Арно Валуа' (2610128): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Клотильда Ем' (2616434): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Людівін Саньє' (2616972): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Фабриціо Ронджоне' (2620496): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Венсан Мартінес' (2624238): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Олів'є Мартінес' (2633274): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Бруно Тодескіні' (2635772): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Пам'ятник 411 воїнам-односельчанам, загиблим на фронтах Великої Вітчизняної війни' (2639729): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Рахотеп (жрець Ра)' (2649681): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Сіберут' (2657305): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Анаїс Демустьє' (2663863): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гаранс Марильє' (2668739): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Валеріо Мастандреа' (2673425): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Еліо Джермано' (2677758): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Нікола Ночелла' (2678924): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Соня Бергамаско' (2679148): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Мікаела Рамадзотті' (2679775): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Лоренцо Рикельмі' (2683769): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Гомаюн Тофікі' (2713776): title(1) recursion(0, 0, 0)
+INFO: Extracted 1200000 articles (1271.1 art/s)
+<string>:1: SyntaxWarning: 'float' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'float' object is not callable; perhaps you missed a comma?
+WARNING: Template errors in article 'Коліма (місто)' (2744826): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Віктор Полстер' (2764199): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Батуринський район' (2768857): title(1) recursion(0, 0, 0)
+INFO: Extracted 1300000 articles (1148.6 art/s)
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+WARNING: Template errors in article 'Грегуар Лепренс-Ренге' (3017829): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Мікеле Ріондіно' (3027857): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Йонас Дасслер' (3033357): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Франц Роговський' (3034457): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Марчелло Фонте' (3034696): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Вільям Лебгіль' (3035374): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article 'Леа Дрюкер' (3035277): title(3) recursion(0, 0, 0)
+WARNING: Template errors in article '7 Rings' (3042732): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Державний кордон Південного Судану' (3097505): title(2) recursion(0, 0, 0)
+INFO: Extracted 1400000 articles (1173.8 art/s)
+WARNING: Template errors in article 'Когомологія' (3145768): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Спортивна гімнастика на літніх Олімпійських іграх 2020' (3228685): title(16) recursion(0, 0, 0)
+WARNING: Template errors in article 'Аеронавігаційний університет Ембрі-Ріддл' (3248760): title(1) recursion(0, 0, 0)
+INFO: Extracted 1500000 articles (1302.1 art/s)
+WARNING: Template errors in article 'Кудерчук Марина Миколаївна' (3432288): title(2) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?
+WARNING: Template errors in article 'Кущевська Ніна Федорівна' (3466277): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Костенко Наталія Вікторівна' (3466726): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Зайцева Валентина Василівна' (3483071): title(1) recursion(0, 0, 0)
+INFO: Extracted 1600000 articles (1196.9 art/s)
+WARNING: Template errors in article 'Гітов' (3602238): title(1) recursion(0, 0, 0)
+INFO: Extracted 1700000 articles (2607.5 art/s)
+INFO: Extracted 1800000 articles (9631.3 art/s)
+WARNING: Template errors in article 'Пластунівка (Білокуракинський район)' (3995575): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Первомайське (Білокуракинський район)' (3996139): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Самсонівка (Білокуракинський район)' (3996336): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Сухе (Новопсковський район)' (3996377): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чортківський район (1940—2020)' (4053440): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Кременецький район (1940—2020)' (4053453): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чернігівський район' (4056122): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Метаболічні кінази' (4100898): title(1) recursion(0, 0, 0)
+INFO: Extracted 1900000 articles (1626.1 art/s)
+WARNING: Template errors in article 'Одкровення Пірамід' (4228394): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Кубок світу з тріатлону 2021' (4263892): title(20) recursion(0, 0, 0)
+WARNING: Template errors in article 'Руда (міфологія)' (4286896): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'float' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Список птахів Південного Судану' (4343062): title(2) recursion(0, 0, 0)
+WARNING: Template errors in article 'Валера' (4349926): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Античний антисемітизм' (4402140): title(1) recursion(0, 0, 0)
+INFO: Extracted 2000000 articles (1395.3 art/s)
+WARNING: Template errors in article 'Джон Кітолано' (4474098): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Оскар Дорлі' (4478100): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Готтардський масив' (4501221): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Соловйов Дмитро Ігорович' (4502105): title(1) recursion(0, 0, 0)
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Світова серія з тріатлону 2022' (4536300): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Род-Айленд (колонія)' (4588383): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чемпіонат світу з легкої атлетики 2022 — естафетний біг 4×400 метрів (жінки)' (4620443): title(24) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чемпіонат світу з легкої атлетики 2022 — естафетний біг 4×400 метрів (чоловіки)' (4620426): title(23) recursion(0, 0, 0)
+INFO: Extracted 2100000 articles (1279.1 art/s)
+WARNING: Template errors in article 'Ендоканабіноїди' (4831513): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Чигарьова Євгенія Іванівна' (4882343): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Chaenothecopsis polissica' (4911921): title(0) recursion(1, 0, 0)
+WARNING: Template errors in article 'Crepidodera decolorata' (4913013): title(0) recursion(1, 0, 0)
+WARNING: Template errors in article 'Taphioporus' (4913034): title(0) recursion(1, 0, 0)
+WARNING: Template errors in article 'Psyllototus' (4913028): title(0) recursion(1, 0, 0)
+INFO: Extracted 2200000 articles (1241.1 art/s)
+WARNING: Template errors in article 'Monster (манґа)' (4962824): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Старий і море (фільм, 1958)' (4969066): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Міський тунель (Франкфурт)' (4990044): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Самохін Микола Єрмолайович' (4998645): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Прозапас Андрій Миколайович' (5136096): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Естер Шарґай' (5153764): title(1) recursion(0, 0, 0)
+INFO: Extracted 2300000 articles (1396.9 art/s)
+<string>:1: SyntaxWarning: 'int' object is not subscriptable; perhaps you missed a comma?
+WARNING: Template errors in article 'Крупський Богдан Олегович' (5243616): title(0) recursion(3, 0, 0)
+WARNING: Template errors in article 'Суходіл' (5244112): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Лаурат міді(ІІ).' (5258942): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Легка атлетика на літніх Олімпійських іграх 2024 — естафетний біг 4×100 метрів (чоловіки)' (5302529): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Легка атлетика на літніх Олімпійських іграх 2024 — естафетний біг 4×400 метрів (чоловіки)' (5302582): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Легка атлетика на літніх Олімпійських іграх 2024 — естафетна марафонська спортивна ходьба (змішана)' (5304506): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Легка атлетика на літніх Олімпійських іграх 2024 — естафетний біг 4×400 метрів (жінки)' (5304839): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Легка атлетика на літніх Олімпійських іграх 2024 — естафетний біг 4×100 метрів (жінки)' (5304835): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Парачіко' (5328921): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Собаки-герої України' (5443644): title(3) recursion(0, 0, 0)
+INFO: Extracted 2400000 articles (1491.4 art/s)
+WARNING: Template errors in article 'Тимків Василь Романович' (5477139): title(1) recursion(0, 0, 0)
+WARNING: Template errors in article 'Денисов Борис Миколайович' (5554946): title(0) recursion(3, 0, 0)
+WARNING: Template errors in article 'Чемпіонат Європи з легкої атлетики серед молоді 2025' (5554463): title(12) recursion(0, 0, 0)
+WARNING: Template errors in article 'Легка атлетика на Літній універсіаді 2025' (5557145): title(27) recursion(0, 0, 0)
+INFO: Finished 120-process extraction of 2444127 articles in 1780.9s (1372.4 art/s)
