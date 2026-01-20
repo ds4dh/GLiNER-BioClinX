@@ -15,7 +15,5 @@ Doenças_animais
 Plantas_medicinais
 Fungos_medicinais
 Botânica
-Drogas_alucinógenas
-Estimulantes
 
 WITH DEPTH = 2
