@@ -6,5 +6,6 @@ python 2a_deduplicate.py --input_csv ./data/cleaned/ru_chunked_cleaned.csv --out
 python 2a_deduplicate.py --input_csv ./data/cleaned/en_chunked_cleaned.csv --output_csv ./data/deduplicated/en_chunked_cleaned_deduplicated.csv
 python 2a_deduplicate.py --input_csv ./data/cleaned/it_chunked_cleaned.csv --output_csv ./data/deduplicated/it_chunked_cleaned_deduplicated.csv
 python 2a_deduplicate.py --input_csv ./data/cleaned/es_chunked_cleaned.csv --output_csv ./data/deduplicated/es_chunked_cleaned_deduplicated.csv
-python 2a_deduplicate.py --input_csv ./data/cleaned/nl_chunked_cleaned.csv --output_csv ./data/deduplicated/nl_chunked_cleaned_deduplicated.csv
 python 2a_deduplicate.py --input_csv ./data/cleaned/fr_chunked_cleaned.csv --output_csv ./data/deduplicated/fr_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/nl_chunked_cleaned.csv --output_csv ./data/deduplicated/nl_chunked_cleaned_deduplicated.csv
+python 2a_deduplicate.py --input_csv ./data/cleaned/pt_chunked_cleaned.csv --output_csv ./data/deduplicated/pt_chunked_cleaned_deduplicated.csv
