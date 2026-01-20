@@ -84,6 +84,9 @@ def process_csv(input_csv: str, output_csv: str, language: str, lang_csv_label: 
     filtered_df['language'] = stanza_lang_code
 
     print(f"\nSaving {remaining_rows} cleaned rows to: {output_csv}")
+    output_dir = os.path.dirname(output_csv)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
     filtered_df.to_csv(output_csv, index=False)
     print("Cleaned CSV saved successfully!")
 

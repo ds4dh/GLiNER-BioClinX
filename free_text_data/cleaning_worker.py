@@ -11,7 +11,7 @@ DetectorFactory.seed = 42
 # These are the languages you are willing to process.
 SUPPORTED_LANGUAGES = {
     "en", "fr", "de", "it", "es",
-    "nl", "uk", "ru", "zh-cn", "ja"
+    "nl", "uk", "ru", "zh-cn", "ja", "pt"
 }
 
 # Stanza uses 'zh' for simplified Chinese, while langdetect may return 'zh-cn'.
