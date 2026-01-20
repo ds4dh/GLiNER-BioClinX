@@ -1,1 +1,0 @@
-wikiextractor ukwiki-latest-pages-articles.xml.bz2 --processes 120 -o full_extract
