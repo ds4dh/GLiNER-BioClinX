@@ -70,6 +70,9 @@ def deduplicate_with_graph(input_csv: str, output_csv: str, threshold: float, mo
     graph_dedup_number = len(df_reps)
     
     print(f"\nSaving {graph_dedup_number} deduplicated rows to: {output_csv}")
+    output_dir = os.path.dirname(output_csv)
+    if output_dir:
+        os.makedirs(output_dir, exist_ok=True)
     df_reps.to_csv(output_csv, index=False)
     print("Deduplication complete.")
 
