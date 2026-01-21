@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 python x_swl_infer.py --output ../data/x_swl_output/fr.jsonl --language fr --batch-size 32
+CUDA_VISIBLE_DEVICES=1 python x_swl_infer.py --output ../data/x_swl_output/en.jsonl --language en --batch-size 32
+CUDA_VISIBLE_DEVICES=2 python x_swl_infer.py --output ../data/x_swl_output/de.jsonl --language de --batch-size 32
+CUDA_VISIBLE_DEVICES=3 python x_swl_infer.py --output ../data/x_swl_output/it.jsonl --language it --batch-size 32
+CUDA_VISIBLE_DEVICES=4 python x_swl_infer.py --output ../data/x_swl_output/es.jsonl --language es --batch-size 32
+
+CUDA_VISIBLE_DEVICES=0 python x_swl_infer.py --output ../data/x_swl_output/uk.jsonl --language uk --batch-size 32
+CUDA_VISIBLE_DEVICES=1 python x_swl_infer.py --output ../data/x_swl_output/ru.jsonl --language ru --batch-size 32
+CUDA_VISIBLE_DEVICES=2 python x_swl_infer.py --output ../data/x_swl_output/zh.jsonl --language zh --batch-size 32
+CUDA_VISIBLE_DEVICES=3 python x_swl_infer.py --output ../data/x_swl_output/ja.jsonl --language ja --batch-size 32
+
+CUDA_VISIBLE_DEVICES=0 python x_swl_infer.py --output ../data/x_swl_output/nl.jsonl --language nl --batch-size 32
+CUDA_VISIBLE_DEVICES=0 python x_swl_infer.py --output ../data/x_swl_output/pt.jsonl --language pt --batch-size 32
