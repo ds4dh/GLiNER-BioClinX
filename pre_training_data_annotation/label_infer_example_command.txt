@@ -1,0 +1,5 @@
+python label_infer.py \
+  --input ./x_swl_output/pt.jsonl \
+  --output ./x_swl_output/pt_labeled.jsonl \
+  --concurrency 48 \
+  --base-url http://localhost:8000/v1
