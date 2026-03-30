@@ -1,0 +1,23 @@
+# For blackwell GPUs:
+uv pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu128
+uv pip install "transformers>=4.51,<5.0"
+uv pip install vllm==0.10.1.1
+
+# vllm server command:
+CUDA_VISIBLE_DEVICES=0,1 \
+vllm serve Qwen/Qwen3-235B-A22B-Thinking-2507-FP8 \
+  --tensor-parallel-size 2 \
+  --max-model-len 131072 \
+  --max-num-seqs 128 \
+  --max-num-batched-tokens 16384 \
+  --gpu-memory-utilization 0.95 \
+  --reasoning-parser deepseek_r1 \
+  --host 0.0.0.0 --port 8847
+
+python multi_task_gen.py \
+  --input ./data/MTSamples/mtsamples_en.json \
+  --output ./outputs/mtsamples_en_ner.jsonl \
+  --task ner \
+  --language en \
+  --concurrency 48 \
+  --no-require-token-boundaries
