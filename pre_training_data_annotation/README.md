@@ -1,0 +1,1 @@
+The pre-training dataset used in this work is available on Hugging Face: [anthonyyazdaniml/gliner-bioclin-x-pre-training-v1.1](https://huggingface.co/datasets/anthonyyazdaniml/gliner-bioclin-x-pre-training-v1.1).
