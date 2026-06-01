@@ -16,4 +16,3 @@ vllm serve Qwen/Qwen3-235B-A22B-Thinking-2507-FP8 \
 
 # Translate
 python translate.py ../post_training_free_text_data/data/MTSamples/mtsamples_en.json
-python translate.py ../post_training_free_text_data/data/MIMIC/mimic_en.json
