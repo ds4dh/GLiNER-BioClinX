@@ -1,0 +1,65 @@
+model:
+  model_name: "google/mt5-large"
+  name: "span level gliner"
+  hidden_size: 1024          # mt5-large d_model
+  max_width: 12
+  max_len: 2048              # short for quick CPU runs
+  max_len_tokenizer: null  # tokenizer specific Subword limits
+  max_types: 1000
+  max_neg_type_ratio: 1
+  dropout: 0.1
+  fine_tune: true
+  subtoken_pooling: first
+  span_mode: markerV0
+  fuse_layers: false
+  post_fusion_schema: null
+  num_rnn_layers: 1
+  words_splitter_type: "stanza"
+
+data:
+  root_dir: bioclinx-post_trained-from_group_by_lang-meta_sampling_true-mult_1-group_by_null-meta_sampling_null
+  train_data: "./post_training_data/open_post_training_data.json"
+  val_data_dir: "./pre_training_data/val_pre_training_data.json"          # set to a .json path to enable F1 checkpointing
+
+# Validation / F1-based checkpointing (used when val_data_dir is set)
+eval:
+  threshold: 0.5
+  batch_size: null              # null → use per_device_train_batch_size
+  seed: 42
+
+training:
+  bf16: true
+  prev_path: "bioclinx-pre_trained-group_by_lang-meta_sampling_true-mult_1/checkpoint-165000"
+  num_steps: 7846
+  train_batch_size: 4
+  eval_every: 7846
+  warmup_ratio: 0.0
+  scheduler_type: "cosine"
+  num_workers: 4
+
+  # Plain cross-entropy (no focal loss, no masking)
+  loss_alpha: -1.0          # disable focal weighting
+  loss_gamma: 0.0
+  loss_reduction: "mean"
+  negatives: 1.0
+  masking: "none"
+
+  # Optimiser
+  lr_encoder: 5e-6
+  lr_others: 1e-5
+  weight_decay_encoder: 0.1
+  weight_decay_other: 0.01
+  max_grad_norm: 1.0
+
+  save_total_limit: 1
+  save_safetensors: false   # mt5 has shared weight tensors; use pytorch_model.bin
+  early_stopping_patience: 5
+  early_stopping_threshold: 0.001
+
+# BatchStrategy (used by train_custom.py)
+batch_strategy:
+  group_by: null
+  meta_sampling: null
+  dynamic_max_types_mult: null  # Not relevant when meta_sampling is null
+  shuffle_types: true
+  seed: 42

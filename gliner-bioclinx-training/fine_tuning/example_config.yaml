@@ -1,0 +1,34 @@
+data:
+  train: ./train.json
+  val: ./val.json
+  test: null
+eval:
+  threshold: 0.5
+  batch_size: null
+  seed: 42
+training:
+  num_train_epochs: 40
+  num_steps: -1
+  bf16: false
+  train_batch_size: 4
+  warmup_ratio: 0.1
+  scheduler_type: cosine
+  num_workers: 4
+  loss_alpha: -1.0
+  loss_gamma: 0.0
+  loss_reduction: mean
+  negatives: 1.0
+  masking: none
+  lr_encoder: 5.0e-06
+  lr_others: 1.0e-05
+  weight_decay_encoder: 0.1
+  weight_decay_other: 0.01
+  max_grad_norm: 1.0
+  save_total_limit: 1
+  save_safetensors: false
+  logging_steps: 10
+  report_to: none
+  freeze: []
+  tokenizer_max_length: null
+  early_stopping_patience: 5
+  early_stopping_threshold: 0.0
