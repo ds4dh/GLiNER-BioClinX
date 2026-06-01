@@ -1,0 +1,1 @@
+The annotated post-training dataset used in this work is available on Hugging Face: [anthonyyazdaniml/gliner-bioclin-x-open-post-training-v1.1](https://huggingface.co/datasets/anthonyyazdaniml/gliner-bioclin-x-open-post-training-v1.1).
