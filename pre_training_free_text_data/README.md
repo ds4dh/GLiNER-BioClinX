@@ -5,7 +5,7 @@ This folder builds the multilingual free-text pre-training corpus used before an
 1. Run the `0*` scripts to extract and chunk raw text into `data/preprocessed/`.
 2. Run `1a_cleaning_main.py` using `cleaning_commands.txt`.
 3. Run `2a_deduplicate.py` using `deduplication_commands.txt`.
-4. Run `3a_create_combined_datasets.py` to create `all.csv`, `balanced.csv`, and `balanced_12k.csv`.
+4. Run `3a_create_combined_datasets.py` to create the final pre-training corpus: [`balanced_12k.csv`](https://huggingface.co/datasets/anthonyyazdaniml/gliner-bioclin-x-free-text-balanced-12k-v1.1).
 
 ## Raw Sources
 
