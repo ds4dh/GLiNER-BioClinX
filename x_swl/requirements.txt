@@ -1,5 +1,4 @@
-aiohttp==3.12.12
-aiohttp==3.12.11
+aiohttp>=3.12.11,<=3.12.12
 async_timeout==5.0.1
 beautifulsoup4==4.13.4
 gliner==0.2.21
