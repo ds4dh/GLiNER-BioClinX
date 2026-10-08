@@ -1,35 +1,18 @@
-# x-SWL: Multilingual Span Weak Labeling
+# Span-proposal training
 
-This folder builds the x-SWL training data and trains the multilingual span proposal model.
+This folder prepares multilingual Wikipedia training data and trains the span-proposal model used before LLM-based entity typing.
 
-x-SWL is not a biomedical entity classifier. It learns one task: propose entity-like spans across languages with the generic label `entity`. The later LLM annotation stage assigns source-language entity types.
+The prepared [span-proposal training dataset](https://huggingface.co/datasets/anthonyyazdaniml/x-swl-v4.1) and trained [span-proposal model](https://huggingface.co/anthonyyazdaniml/x-swl-large-v4.1) are available on Hugging Face.
 
-## Public Dataset
-
-Training and validation splits:
-
-- https://huggingface.co/datasets/anthonyyazdaniml/x-swl-v4.1
+The model predicts candidate mention boundaries using the generic label `entity`. Entity types are assigned in the subsequent annotation stage.
 
 ## Pipeline
 
-1. `0a_fetch_ids.py`: download WikiMed from Zenodo and extract English Wikipedia page IDs.
-2. `0b_fetch_multilingual_ids.py`: resolve multilingual Wikipedia equivalents with langlinks.
-3. `1a_download_html_files.py`: download Parsoid HTML for each language/title pair.
-4. `2a_create_raw_dataset.py`: extract lead-section text and weak spans from bold, italic, and linked text.
-5. `2b_create_tokenized_dataset.py`: filter, uniformly sample, tokenize with Stanza, and write `train_uniform.json` and `val_uniform.json`.
-6. `train_x_swl.py`: train the GLiNER span proposal model with `configs/config-large.yaml`.
+1. `0a_fetch_ids.py` downloads WikiMed and extracts English Wikipedia page IDs.
+2. `0b_fetch_multilingual_ids.py` resolves the corresponding Wikipedia pages in other languages.
+3. `1a_download_html_files.py` downloads the Wikipedia HTML.
+4. `2a_create_raw_dataset.py` extracts lead-section text and candidate spans from bold, italic, and linked text, then filters the resulting instances.
+5. `2b_create_tokenized_dataset.py` samples 2,000 training and 400 validation instances per language, tokenizes them with Stanza, and writes `train_uniform.json` and `val_uniform.json`.
+6. `train_x_swl.py` trains the model using `configs/config-large.yaml`.
 
-For adding a language after the first run:
-
-1. `3a_append_lang.py`: append missing langlinks to an existing multilingual ID CSV.
-2. `4a_download_appended_html_files.py`: download only the newly appended language HTML.
-3. Re-run `2a_create_raw_dataset.py` and `2b_create_tokenized_dataset.py`.
-
-## Key Design
-
-- Source: WikiMed medical Wikipedia IDs, expanded to multilingual Wikipedia.
-- Weak signals: lead-section bold text, italic text, and anchor text.
-- Raw filtering: 100-512 Qwen tokens and richness between 0.4 and 0.99.
-- Uniform split: 2,000 train and 400 validation examples per language.
-- Training label: `entity` only.
-- Model role: high-recall multilingual span proposal before LLM entity type annotation.
+`3a_append_lang.py` and `4a_download_appended_html_files.py` support extending the collection to additional languages.
